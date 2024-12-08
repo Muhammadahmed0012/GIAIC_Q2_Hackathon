@@ -88,47 +88,55 @@ export default function Hero() {
         </div>
       </div>
       <div className="">
-      <h2 className="text-lg font-semibold pl-5">Gear Up</h2>
-      <div className="lg:flex md:flex justify-around sm:flex flex items-center">
-      <Image src={Image14} alt="image14"/>
-      <Image src={Image15} alt="image15" className="lg:block md:block sm:hidden hidden"/>
-      </div>
-      <div className="lg:grid lg:grid-cols-4  lg:items-center md:grid md:grid-cols-2 md:item-center md:space-y-5 md:ml-16  sm:flex sm:flex-col sm:items-center sm:space-y-5 flex flex-col items-center space-y-5 ">
-     
-        <Image src={Image10} alt="image10" className="pt-5"/>
-        <Image src={Image11} alt="image11"/>
-       
-        
+        <h2 className="text-lg font-semibold pl-5">Gear Up</h2>
+        <div className="lg:flex md:flex justify-around sm:flex flex items-center">
+          <Image src={Image14} alt="image14" />
+          <Image
+            src={Image15}
+            alt="image15"
+            className="lg:block md:block sm:hidden hidden"
+          />
+        </div>
+        <div className="lg:grid lg:grid-cols-4  lg:items-center md:grid md:grid-cols-2 md:item-center md:space-y-5 md:ml-16  sm:flex sm:flex-col sm:items-center sm:space-y-5 flex flex-col items-center space-y-5 ">
+          <Image src={Image10} alt="image10" className="pt-5" />
+          <Image src={Image11} alt="image11" />
 
-      <div className="lg:hidden md:hidden">  <Image src={Image15} alt="image15"/></div>
-      
-      <Image src={Image12} alt="image12"/>
-      <Image src={Image13} alt="image13"/>
-     
-        
-      </div>
-    
+          <div className="lg:hidden md:hidden">
+            {" "}
+            <Image src={Image15} alt="image15" />
+          </div>
+
+          <Image src={Image12} alt="image12" />
+          <Image src={Image13} alt="image13" />
+        </div>
       </div>
       <div className="flex justify-center mt-10 ">
         <div className="flex flex-col space-y-5">
-        <h2 className="text-lg font-semibold">Dont Miss</h2>
-       <Image src={Image16} alt="image16"/>
-       <div className="flex flex-col items-center space-y-5 pt-5">
-       <h2 className="lg:text-6xl font-semibold md:text-6xl sm:text-5xl text-3xl">FLIGHT ESSENTIALS</h2>
-       <p className="text-lg font-normal">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
-       <button className="text-lg font-semibold h-10 w-24 rounded-3xl bg-black text-white">Shop</button>
-       </div>
-       </div>
-      
+          <h2 className="text-lg font-semibold">Dont Miss</h2>
+          <Image src={Image16} alt="image16" />
+          <div className="flex flex-col items-center space-y-5 pt-5">
+            <h2 className="lg:text-6xl font-semibold md:text-6xl sm:text-5xl text-3xl">
+              FLIGHT ESSENTIALS
+            </h2>
+            <p className="text-lg font-normal">
+              Your built-to-last, all-week wears—but with style only Jordan
+              Brand can deliver.
+            </p>
+            <button className="text-lg font-semibold h-10 w-24 rounded-3xl bg-black text-white">
+              Shop
+            </button>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col mt-10">
-      <h2 className="text-lg font-semibold lg:flex lg:justify-start flex justify-center lg:pl-10">The Essentials</h2>
+        <h2 className="text-lg font-semibold lg:flex lg:justify-start flex justify-center lg:pl-10">
+          The Essentials
+        </h2>
         <div className="lg:grid lg:grid-cols-3 lg:place-items-center md:grid md:grid-cols-2 md:place-items-center sm:grid sm:grid-cols-1 sm:place-items-center grid grid-cols-1 place-items-center space-y-5">
-        
-       <Image src={Image17} alt="image17" className="pt-5" />
-       <Image src={Image18} alt="image18"/>
-       <Image src={Image19} alt="image19"/>
-       </div>
+          <Image src={Image17} alt="image17" className="pt-5" />
+          <Image src={Image18} alt="image18" />
+          <Image src={Image19} alt="image19" />
+        </div>
       </div>
       <div className="lg:grid lg:grid-cols-4 lg:place-items-center md:grid md:grid-cols-4 md:place-items-center  sm:grid sm:grid-cols-3 sm:place-items-center grid grid-cols-2 place-items-center space-y-5 mt-10 ">
         <ul className="text-lg font-semibold opacity-90 space-y-5">
@@ -146,7 +154,9 @@ export default function Hero() {
           <li>Running Shoes</li>
         </ul>
         <ul className="text-lg font-semibold opacity-90 space-y-5 ml-10">
-          <h4 className="text-xl font-semibold text-black underline">Clothing</h4>
+          <h4 className="text-xl font-semibold text-black underline">
+            Clothing
+          </h4>
           <li>All Clothing</li>
           <li>Modest Wear</li>
           <li>Hoodies & Pullovers</li>

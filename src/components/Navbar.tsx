@@ -15,7 +15,7 @@ export default function Navbar() {
         <ul className="lg:flex lg:text-xl lg:font-normal md:flex md:text-xl md:font-normal sm:flex sm:text-xl sm:font-normal flex text-sm font-normal space-x-3 font-[Helvetica Neue]">
         <a href="/"><li className="hover:text-gray-500">Home |</li></a>
             <a href=""><li className="hover:text-gray-500">Find a store |</li></a>
-            <a href=""><li className="hover:text-gray-500">Help |</li></a>
+            <a href="/help"><li className="hover:text-gray-500">Help |</li></a>
            <a href="/join_us"><li className="hover:text-gray-500">Join us |</li></a> 
           <a href="/sign_in"><li className="hover:text-gray-500">Sign in</li></a>
           
