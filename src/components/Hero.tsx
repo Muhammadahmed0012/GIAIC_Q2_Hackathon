@@ -49,7 +49,7 @@ export default function Hero() {
             className="flex justify-center items-center space-x-10"
             id="hero_button"
           >
-            <button className="h-12 w-36 text-lg font-semibold  rounded-3xl bg-black text-white">
+            <button className="h-12 w-36 text-lg font-semibold  rounded-3xl bg-black text-white hover:shadow-2xl">
               Notify ME
             </button>
             <button className="h-12 w-44 text-lg font-semibold  rounded-3xl bg-black text-white">

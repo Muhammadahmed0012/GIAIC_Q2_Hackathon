@@ -35,7 +35,7 @@ export default function HamburgerMenu() {
         }`}
       >
         <ul className="space-y-3">
-          {["New & Featured", "Men", "Women", "Kids", "Sales", "SNKRS"].map(
+          {["Home", "New & Featured", "Men", "Women", "Kids", "Sales", "SNKRS"].map(
             (item, index) => (
               <li
                 key={index}
