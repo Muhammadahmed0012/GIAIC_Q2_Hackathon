@@ -12,6 +12,10 @@ import Image12 from "../../public/image12.png";
 import Image13 from "../../public/image13.png";
 import Image14 from "../../public/image14.png";
 import Image15 from "../../public/image15.png";
+import Image16 from "../../public/image16.png";
+import Image17 from "../../public/image17.png";
+import Image18 from "../../public/image18.png";
+import Image19 from "../../public/image19.png";
 export default function Hero() {
   return (
     <div className="overflow-hidden">
@@ -69,11 +73,11 @@ export default function Hero() {
         <div className="space-y-4">
           <h2 className="text-2xl font-semibold">Featured</h2>
           <Image src={Image8} alt="image8" />
-          <div className="flex flex-col items-center space-y-5">
-            <h2 className="lg:text-6xl font-semibold md:text-6xl sm:text-4xl text-3xl">
+          <div className="flex flex-col pl-5 items-center space-y-5">
+            <h2 className="lg:text-6xl font-semibold md:text-6xl sm:text-4xl text-3xl ">
               STEP INTO WHAT FEELS GOOD
             </h2>
-            <p className="text-lg font-normal">
+            <p className="text-lg font-normal ">
               Cause everyone should know the feeling of running in that perfect
               pair.
             </p>
@@ -104,6 +108,57 @@ export default function Hero() {
         
       </div>
     
+      </div>
+      <div className="flex justify-center mt-10 ">
+        <div className="flex flex-col space-y-5">
+        <h2 className="text-lg font-semibold">Dont Miss</h2>
+       <Image src={Image16} alt="image16"/>
+       <div className="flex flex-col items-center space-y-5 pt-5">
+       <h2 className="lg:text-6xl font-semibold md:text-6xl sm:text-5xl text-3xl">FLIGHT ESSENTIALS</h2>
+       <p className="text-lg font-normal">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
+       <button className="text-lg font-semibold h-10 w-24 rounded-3xl bg-black text-white">Shop</button>
+       </div>
+       </div>
+      
+      </div>
+      <div className="flex flex-col mt-10">
+      <h2 className="text-lg font-semibold lg:flex lg:justify-start flex justify-center lg:pl-10">The Essentials</h2>
+        <div className="lg:grid lg:grid-cols-3 lg:place-items-center md:grid md:grid-cols-2 md:place-items-center sm:grid sm:grid-cols-1 sm:place-items-center grid grid-cols-1 place-items-center space-y-5">
+        
+       <Image src={Image17} alt="image17" className="pt-5" />
+       <Image src={Image18} alt="image18"/>
+       <Image src={Image19} alt="image19"/>
+       </div>
+      </div>
+      <div className="lg:grid lg:grid-cols-4 lg:place-items-center md:grid md:grid-cols-4 md:place-items-center  sm:grid sm:grid-cols-3 sm:place-items-center grid grid-cols-2 place-items-center space-y-5 mt-10 ">
+        <ul className="text-lg font-semibold opacity-90 space-y-5">
+          <h4 className="text-xl font-semibold text-black underline">Icons</h4>
+          <li>Air Force 1</li>
+          <li>Huarache</li>
+          <li>Air Max 90</li>
+          <li>Air Max 95</li>
+        </ul>
+        <ul className="text-lg font-semibold opacity-90 space-y-5">
+          <h4 className="text-xl font-semibold text-black underline">Shoes</h4>
+          <li>All Shoes</li>
+          <li>Custom Shoes</li>
+          <li>Jordan Shoes</li>
+          <li>Running Shoes</li>
+        </ul>
+        <ul className="text-lg font-semibold opacity-90 space-y-5 ml-10">
+          <h4 className="text-xl font-semibold text-black underline">Clothing</h4>
+          <li>All Clothing</li>
+          <li>Modest Wear</li>
+          <li>Hoodies & Pullovers</li>
+          <li>Shirts & Tops</li>
+        </ul>
+        <ul className="text-lg font-semibold opacity-90 space-y-5 sm:ml-20 ml-10">
+          <h4 className="text-xl font-semibold text-black underline">Kids</h4>
+          <li>Infant & Toddler Shoes</li>
+          <li>Kids' Shoes</li>
+          <li>Kids' Jordan Shoes</li>
+          <li>Kids' Basketball Shoes</li>
+        </ul>
       </div>
     </div>
   );

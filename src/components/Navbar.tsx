@@ -15,8 +15,8 @@ export default function Navbar() {
         <ul className="lg:flex lg:text-xl lg:font-normal md:flex md:text-xl md:font-normal sm:flex sm:text-xl sm:font-normal flex text-sm font-normal space-x-3 font-[Helvetica Neue]">
             <li>Find a store |</li>
             <li>Help |</li>
-            <li>Join us |</li>
-            <li>Sign in</li>
+           <a href="/join_us"><li>Join us |</li></a> 
+          <a href="/sign_in"><li>Sign in</li></a>
         </ul>
     
     </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
         
         <div className="flex space-x-3 items-center pl-5">
 <Heart/>
-<a href=""><Image src={Image3} alt="image3"/></a>
+<a href="/cart"><Image src={Image3} alt="image3"/></a>
 <div className="lg:hidden"><HamburgerMenu/></div> 
     
 </div>
