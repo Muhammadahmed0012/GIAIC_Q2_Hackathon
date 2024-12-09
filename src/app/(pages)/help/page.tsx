@@ -190,8 +190,8 @@ const Help = () => {
                         </p>
                     </div>
                     <div className="mt-6 flex gap-4">
-                        <button className="btn bg-black text-white py-2 px-4 rounded-lg">Join Us</button>
-                        <button className="btn bg-gray-200 text-black py-2 px-4 rounded-lg">Shop Nike</button>
+                        <button className="btn bg-black text-white py-2 px-4 rounded-lg  hover:bg-gray-800 transition-colors">Join Us</button>
+                        <button className="btn bg-gray-200 text-black py-2 px-4 rounded-lg  hover:bg-black hover:text-white transition-colors">Shop Nike</button>
                     </div>
 
                     {/* FAQs Section */}

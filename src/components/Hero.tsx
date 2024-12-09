@@ -21,7 +21,7 @@ export default function Hero() {
     <div className="overflow-hidden">
       <div className="flex flex-col items-center justify-center  ">
         <div className="flex flex-col items-center bg-[#F5F5F5] w-full ">
-          <h2 className="lg:text-lg lg:font-semibold md:text-lg md:font-semibold sm:text-lg sm:font-semibold text-sm font-semibold  ">
+          <h2 className="lg:text-lg lg:font-semibold md:text-lg md:font-semibold sm:text-lg sm:font-semibold text-sm font-semibold ">
             Hello Nike App
           </h2>
           <p className="lg:text-lg lg:font-semibold md:text-lg md:font-semibold sm:text-lg sm:font-semibold text-sm font-semibold ">
@@ -49,10 +49,10 @@ export default function Hero() {
             className="flex justify-center items-center space-x-10"
             id="hero_button"
           >
-            <button className="h-12 w-36 text-lg font-semibold  rounded-3xl bg-black text-white hover:shadow-2xl">
+            <button className="h-12 w-36 text-lg font-semibold  rounded-3xl bg-black text-white  hover:bg-gray-800 transition-colors">
               Notify ME
             </button>
-            <button className="h-12 w-44 text-lg font-semibold  rounded-3xl bg-black text-white">
+            <button className="h-12 w-44 text-lg font-semibold  rounded-3xl bg-black text-white   hover:bg-gray-800 transition-colors">
               Shop Air Max
             </button>
           </div>
@@ -61,7 +61,7 @@ export default function Hero() {
       <div className="lg:flex lg:flex-col items-center mt-7 space-y-3 ">
         <div className="lg:flex lg:items-center lg:space-x-[40rem] md:flex md:items-center md:space-x-[30rem] md:pl-5  sm:flex sm:items-center sm:space-x-[15rem] sm:pl-16  flex items-center space-x-[3rem] pl-2">
           <h2 className="text-lg font-medium">Best of Air Max</h2>
-          <Image src={Image9} alt="image9" className="" />
+          <Image src={Image9} alt="image9" />
         </div>
         <div className="lg:flex lg:flex-row lg:space-x-5 md:grid md:grid-cols-2 md:space-x-3 sm:flex sm:flex-col sm:items-center flex flex-col items-center">
           <Image src={Image5} alt="image5" />
@@ -81,7 +81,7 @@ export default function Hero() {
               Cause everyone should know the feeling of running in that perfect
               pair.
             </p>
-            <button className="bg-black text-white font-semibold text-lg h-12 w-44 rounded-3xl">
+            <button className="bg-black text-white font-semibold text-lg h-12 w-44 rounded-3xl  hover:bg-gray-800 transition-colors">
               Find You Shoe
             </button>
           </div>
@@ -122,7 +122,7 @@ export default function Hero() {
               Your built-to-last, all-week wears—but with style only Jordan
               Brand can deliver.
             </p>
-            <button className="text-lg font-semibold h-10 w-24 rounded-3xl bg-black text-white">
+            <button className="text-lg font-semibold h-10 w-24 rounded-3xl bg-black text-white  hover:bg-gray-800 transition-colors">
               Shop
             </button>
           </div>
@@ -133,7 +133,7 @@ export default function Hero() {
           The Essentials
         </h2>
         <div className="lg:grid lg:grid-cols-3 lg:place-items-center md:grid md:grid-cols-2 md:place-items-center sm:grid sm:grid-cols-1 sm:place-items-center grid grid-cols-1 place-items-center space-y-5">
-          <Image src={Image17} alt="image17" className="pt-5" />
+          <Image src={Image17} alt="image17" className="mt-5" />
           <Image src={Image18} alt="image18" />
           <Image src={Image19} alt="image19" />
         </div>
